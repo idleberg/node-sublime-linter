@@ -16,20 +16,17 @@ Add `sublime-linter` to your devDependencies:
 
 ## Usage
 
-Include a package manifest for your
+Include a package manifest for your Sublime Text package
 
 ```json
 {
   "name": "my-sublime-package",
   "version": "0.0.0",
   "license": "MIT",
+  "author": "your-name"
   "private": true,
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-debug": "^2.1.2",
-    "gulp-jsonlint": "^1.1.2",
-    "gulp-xml-validator": "^0.2.0",
-    "gulp-yaml-validate": "^1.0.2"
+    "sublime-linter": "^0.1.0"
   },
   "scripts": {
     "test": "sublime-linter"
