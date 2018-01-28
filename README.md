@@ -2,9 +2,7 @@
 
 [![npm](https://img.shields.io/npm/l/sublime-linter.svg?style=flat-square)](https://www.npmjs.org/package/sublime-linter)
 [![npm](https://img.shields.io/npm/v/sublime-linter.svg?style=flat-square)](https://www.npmjs.org/package/sublime-linter)
-[![Travis](https://img.shields.io/travis/idleberg/node-sublime-linter.svg?style=flat-square)](https://travis-ci.org/idleberg/node-sublime-linter)
 [![David](https://img.shields.io/david/idleberg/node-sublime-linter.svg?style=flat-square)](https://david-dm.org/idleberg/node-sublime-linter)
-[![David](https://img.shields.io/david/dev/idleberg/node-sublime-linter.svg?style=flat-square)](https://david-dm.org/idleberg/node-sublime-linter?type=dev)
 
 Linter for Sublime Text packages, supporting completions, snippets, build tools, syntax definitions and many more.
 
