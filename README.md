@@ -21,7 +21,7 @@ Include a package manifest for your Sublime Text package
   "name": "my-sublime-package",
   "version": "0.0.0",
   "license": "MIT",
-  "author": "your-name"
+  "author": "your-name",
   "private": true,
   "devDependencies": {
     "sublime-linter": "^0.1.0"
