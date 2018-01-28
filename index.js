@@ -26,6 +26,7 @@ const src = {
     '**/*.sublime-settings',
     '**/*.sublime-theme',
     'messages.json',
+    '!bower_components/**/*',
     '!node_modules/**/*'
   ],
   xml: [
@@ -40,12 +41,14 @@ const src = {
     '**/*.tmSnippet',
     '**/*.tmTheme',
     '**/*.xml',
+    '!bower_components/**/*',
     '!node_modules/**/*'
   ],
   yaml: [
     '**/*.sublime-syntax',
     '**/*.YAML-tmLanguage',
     '**/*.YAML-tmTheme',
+    '!bower_components/**/*',
     '!node_modules/**/*'
   ]
 };
