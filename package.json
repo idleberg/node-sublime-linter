@@ -6,9 +6,9 @@
   "license": "MIT",
   "repository": "https://github.com/idleberg/node-sublime-linter",
   "keywords": [
-    "nsis",
-    "makensis",
-    "cli"
+    "sublime text",
+    "textmate",
+    "linter"
   ],
   "main": "index.js",
   "bin": {
