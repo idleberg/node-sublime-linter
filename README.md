@@ -6,15 +6,11 @@
 
 Linter for Sublime Text packages, supporting completions, snippets, build tools, syntax definitions and many more.
 
-## Installation
-
-Add `sublime-linter` to your devDependencies:
-
-`$ npm install sublime-linter -D`
-
 ## Usage
 
-Include a package manifest for your Sublime Text package
+Create a package manifest for your Sublime Text package and mark it as private
+
+**Example:**
 
 ```json
 {
