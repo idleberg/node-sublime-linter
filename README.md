@@ -16,9 +16,9 @@ Create a package manifest for your Sublime Text package and mark it as private
 {
   "name": "my-sublime-package",
   "version": "0.0.0",
+  "private": true,
   "license": "MIT",
   "author": "your-name",
-  "private": true,
   "devDependencies": {
     "sublime-linter": "^0.1.0"
   },
