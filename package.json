@@ -1,6 +1,6 @@
 {
   "name": "sublime-linter",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Linter for Sublime Text packages, supporting completions, snippets, build tools, syntax definitions and many more",
   "author": "Jan T. Sott",
   "license": "MIT",
