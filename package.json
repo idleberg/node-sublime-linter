@@ -17,7 +17,7 @@
   "dependencies": {
     "gulp": "^4.0.0",
     "gulp-debug": "^3.2.0",
-    "gulp-jsonlint": "^1.1.2",
+    "gulp-json-lint": "^0.1.0",
     "gulp-xml-validator": "^0.2.2",
     "gulp-yaml-validate": "^1.0.2"
   }

@@ -3,7 +3,7 @@
 // Dependencies
 const gulp = require('gulp');
 const debug = require('gulp-debug');
-const jsonLint = require('gulp-jsonlint');
+const jsonLint = require('gulp-json-lint');
 const yamlValidator = require('gulp-yaml-validate');
 const xmlValidator = require('gulp-xml-validator');
 
@@ -56,9 +56,10 @@ const src = {
 // Lint JSON
 gulp.src(src.json, options)
   .pipe(debug({title: 'Lint JSON:'}))
-  .pipe(jsonLint())
-  .pipe(jsonLint.failAfterError())
-  .pipe(jsonLint.reporter());
+  .pipe(jsonLint({
+    comments: true
+  }))
+  .pipe(jsonLint.report('verbose'));
 
 // Validate XML
 gulp.src(src.xml, options)
