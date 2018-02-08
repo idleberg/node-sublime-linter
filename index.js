@@ -53,13 +53,17 @@ const src = {
   ]
 };
 
+const jsonReporter = function (lint, file) {
+  throw `${file.path}: ${lint.error}`;
+};
+
 // Lint JSON
 gulp.src(src.json, options)
   .pipe(debug({title: 'Lint JSON:'}))
   .pipe(jsonLint({
     comments: true
   }))
-  .pipe(jsonLint.report('verbose'));
+  .pipe(jsonLint.report(jsonReporter));
 
 // Validate XML
 gulp.src(src.xml, options)
