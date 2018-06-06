@@ -6,7 +6,7 @@
 
 Linter for Sublime Text packages, supporting completions, snippets, build tools, syntax definitions and many more.
 
-## Usage
+## Installation
 
 Install `sublime-linter` dependency for your Sublime Text package
 
@@ -18,6 +18,28 @@ Alternatively, you can install `sublime-linter` globally for use as a CLI tool
 
 ```sh
 yarn global add sublime-linter || npm install -g sublime-linter
+```
+
+## Usage
+
+Create a package manifest for your Sublime Text package and mark it as private
+
+**Example:**
+
+```json
+{
+  "name": "my-sublime-package",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "your-name",
+  "devDependencies": {
+    "sublime-linter": "^0.4.0"
+  },
+  "scripts": {
+    "test": "sublime-linter"
+  }
+}
 ```
 
 ## License
