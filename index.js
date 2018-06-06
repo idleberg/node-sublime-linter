@@ -14,7 +14,7 @@ const { join } = require('path');
 
 // Gulp options
 const options = {
-  allowEmpty: true
+    allowEmpty: true
 };
 
 const src = {
