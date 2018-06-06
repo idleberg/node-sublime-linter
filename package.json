@@ -21,7 +21,7 @@
   "dependencies": {
     "commander": "^2.15.1",
     "gulp": "^4.0.0",
-    "gulp-debug": "^3.2.0",
+    "gulp-debug": "^4.0.0",
     "gulp-json-lint": "^0.1.0",
     "gulp-xml-validator": "^0.2.2",
     "gulp-yaml-validate": "^1.0.2"
