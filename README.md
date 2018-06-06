@@ -18,6 +18,7 @@ Alternatively, you can install `sublime-linter` globally for use as a CLI tool
 
 ```sh
 yarn global add sublime-linter || npm install -g sublime-linter
+```
 
 ## License
 
