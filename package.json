@@ -5,6 +5,10 @@
   "author": "Jan T. Sott",
   "license": "MIT",
   "repository": "https://github.com/idleberg/node-sublime-linter",
+  "scripts": {
+    "precommit": "npm test",
+    "test": "eslint index.js"
+  },
   "keywords": [
     "sublime text",
     "textmate",
@@ -15,10 +19,15 @@
     "sublime-linter": "index.js"
   },
   "dependencies": {
+    "commander": "^2.15.1",
     "gulp": "^4.0.0",
     "gulp-debug": "^3.2.0",
     "gulp-json-lint": "^0.1.0",
     "gulp-xml-validator": "^0.2.2",
     "gulp-yaml-validate": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3"
   }
 }
