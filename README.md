@@ -1,8 +1,9 @@
 # sublime-linter
 
-[![npm](https://img.shields.io/npm/l/sublime-linter.svg?style=flat-square)](https://www.npmjs.org/package/sublime-linter)
-[![npm](https://img.shields.io/npm/v/sublime-linter.svg?style=flat-square)](https://www.npmjs.org/package/sublime-linter)
-[![David](https://img.shields.io/david/idleberg/node-sublime-linter.svg?style=flat-square)](https://david-dm.org/idleberg/node-sublime-linter)
+[![The MIT License](https://flat.badgen.net/badge/license/MIT/orange)](http://opensource.org/licenses/MIT)
+[![GitHub](https://flat.bcodeadgen.net/github/release/idleberg/node-sublime-linter)](https://github.com/idleberg/node-sublime-linter/releases)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/node-sublime-linter)](https://circleci.com/gh/idleberg/node-sublime-linter)
+[![David](https://flat.badgen.net/david/dev/idleberg/node-sublime-linter)](https://david-dm.org/idleberg/node-sublime-linter)
 
 Linter for Sublime Text packages, supporting completions, snippets, build tools, syntax definitions and many more.
 
